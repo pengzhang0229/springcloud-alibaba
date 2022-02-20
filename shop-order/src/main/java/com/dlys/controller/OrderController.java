@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  *
  * @author admin
  */
-//@RestController
+@RestController
 public class OrderController {
 
     @Autowired

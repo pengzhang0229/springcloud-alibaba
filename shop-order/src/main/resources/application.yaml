@@ -19,12 +19,12 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
-    sentinel:
-      transport:
-        port: 9999 #跟控制台交流的端口,随意指定一个未使用的端口即可
-        dashboard: localhost:8080 # 指定控制台服务的地址
-rocketmq:
-  name-server: 121.41.6.87:9876 #rocketMQ服务的地址
-  producer:
-    group: shop-order # 生产者组
+        server-addr: 101.43.144.146:8848
+#    sentinel:
+#      transport:
+#        port: 9999 #跟控制台交流的端口,随意指定一个未使用的端口即可
+#        dashboard: localhost:8080 # 指定控制台服务的地址
+#rocketmq:
+#  name-server: 121.41.6.87:9876 #rocketMQ服务的地址
+#  producer:
+#    group: shop-order # 生产者组
